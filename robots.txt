@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /fonts/
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Sitemap: https://tcglobal.com/sitemap_index.xml
