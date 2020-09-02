@@ -1,0 +1,145 @@
+.insights-details-page {font-family: Zona Prolight; font-size: 14px;}
+   .insights-details-page  strong { font-family: 'Zona Pro'; }
+.insights-details-page .wpb_row .wpb_wrapper ul { counter-reset: item; padding-left:05px; padding-top: 7px; }
+.insights-details-page .wpb_row .wpb_wrapper ul li {font-family: 'Zona Proregular'; display: block; margin-bottom: 13px; line-height: 1.86;padding-left: 10px;}
+    
+.insights-details-page .wpb_row .wpb_wrapper ul li:before {content: url(https://tcglobal.wpengine.com/wp-content/uploads/2019/08/down_2.png); font-family: 'Zona Pro';font-size: 32px;line-height: 0; color: #2c090c; margin-right: 5px;}
+.insights-details-page .wpb_row .wpb_wrapper ul li ul li:before {content:"■"; font-family: 'Zona Pro';font-size: 12px;line-height: 0; color: #2c090c; margin-right: 5px;}
+.insights-details-page .wpb_row .wpb_wrapper ul li ul li ul li:before {content:""; font-family: 'Zona Pro';font-size: 8px;line-height: 0; color: #2c090c; margin-right: 5px;}
+
+.insights-details-page a{ 
+    text-decoration: underline;  font-family: 'Zona Pro';}
+    
+    
+    .insights-details-page .wpb_row .wpb_wrapper table ul {
+    border: solid 1px #e6e6e6;
+    padding: 8px;
+    margin-bottom:15px!important;
+}
+.insights-details-page .wpb_row .wpb_wrapper table  {
+        margin-bottom:25px;
+}
+
+.insights-details-page .wpb_row .wpb_wrapper table li {
+    margin-bottom: 5px;
+    border-bottom: solid 1px #e4e4e4;
+    padding-bottom: 5px;
+}
+
+.insights-details-page .wpb_row .wpb_wrapper table li:last-child {
+  border-bottom:none;  
+}
+
+.insights-details-page .wpb_row .wpb_wrapper table td {
+    padding: 10px;
+
+}
+.insights-details-page .wpb_row .wpb_wrapper table p{
+    
+     margin-bottom:0px!important;
+}
+.insights-details-page .wpb_row .wpb_wrapper table td:nth-child(1) {
+  background: #f3f3f3;
+}
+.insights-details-page .wpb_row .wpb_wrapper table.table td:nth-child(1) {
+  background: none;
+}
+.mar-25-0 {
+    margin-bottom: 25px!important; margin-left: 15px;
+}
+
+
+
+ol.mar-25-0 li {
+list-style-type: decimal;  font-family: 'Zona Pro';  
+}
+
+ol.mar-25-0 li ul li{list-style-type: decimal; font-family: 'Zona Prolight';}
+
+.page-template-country-template .table { font-family: 'Zona Proregular';margin-left: -20px; }
+
+.page-template-country-template .table th {font-family: 'Zona Pro';}
+.text-blog{font-family: 'Zona Proregular';}
+#accordionExample ul {margin-top: 25px;}
+#accordionExample ul li{  margin-bottom: 0px;}
+#accordionExample .card-body { margin-top: -45px;}
+@media screen and (max-width:767px) {
+#accordionExample .card-body { margin-top:0!important;}
+.page-template-country-template .table { margin-left: 0!important;}
+.currency {left:-14%;bottom: -50px;top: inherit!important;}
+.currency .text { float: left!important;}
+.currency .head {display: inline-block;margin-right: 15px;}
+.currency .dis { display: inline-block;}
+.blankcurrencyspace {position: relative;display: block;height: 50px;}
+}
+.event-medium-ul li { font-family: 'Zona Proregular'!important;}
+.country-detail-accordion .accordion li {color: #2c090c!important;}
+
+.table td, .table th {color: #2c090c!important;}
+.quick-fact p{color: #2c090c!important;     padding: 0!important;}
+.text-blog p {top:0!important;}
+.currency {color: #2c090c!important;position: absolute;right: -115px;top: 0;}
+.currency .img {float: left;}
+.currency .img img{ width: 25px;}
+.currency .text {   float: right; margin-left: 20px;}
+.currency .head {font-size: 14px;line-height: 1.36; margin-bottom: 0;font-family: 'Zona Proregular';}
+.currency .dis {font-size: 10px;line-height: 1.6;margin-bottom: 0;letter-spacing: 2px; text-transform: uppercase; font-family: 'Zona Proextrabold';}
+.course-list .currency {display: none;}
+.learning-custom h4 {font-family: 'Zona Pro';}
+.learning-custom {}
+.learning-custom h5 {font-family: 'Zona Pro';}
+.learning-custom h5 img{ width:16px; margin-right: 10px;}
+.learning-custom section.bor-bottom-dot {padding: 20px 0;}
+.learning-custom .desktop-start-journeybanner {height: auto!important;background: #da1f3d;margin-top: 20px;padding: 25px;}
+.learning-custom .desktop-start-journeybanner h2 {padding-top: 0!important;}
+@media screen and (max-width:767px) {
+.summary_history strong  { color: #775f5f;}
+#accordionExample .card-body strong {font-size: 14px; color: #775f5f; font-weight: normal!important; display: inline!important; font-family: 'Zona Proregular'!important;}
+#accordionExample .card-body p.faq-child-heading {top: 0px!important;     margin-top: 25px!important;padding-bottom:0!important;}    
+.learning-custom .searchcoutry-about-count h5 {margin-left:0!important;}    
+.learning-custom .searchcoutry-about-count {padding:20px!important;}
+.mobile_display{ display:block;}.table-bordered {font-size: 12px;}.destop_display{ display:none}
+.learning-custom .searchtool-banner {background-image: url(https://tcglobal.com/wp-content/uploads/2020/06/learningBanner.jpg)!important;}
+} 
+@media screen and (min-width:768px) {
+.destop_display{ display:block;}.mobile_display{ display:none;}
+}
+.learning-custom .table-bordered td { border: 1px solid #e85b72;padding:3px;}
+.learning-custom .whcust{ color:#ffffff; padding-top: 20px;margin-bottom:10px;}
+.learning-custom .table-bordered th {border: 1px solid #e85b72; padding:3px;}
+.learning-custom .disb:hover{ color: #d81f3d; background: #f9d8dd; text-decoration:none;}
+.learning-custom .disb{font-family: 'Zona Pro';text-decoration: none;cursor: pointer;margin-bottom: 15px;background: #fff;color: #d81f3d;padding: 15px;cursor: pointer;display: flex;height: 70px;border-radius: 4px; font-weight:bold;align-items: center;justify-content: center; text-align:center;}
+.learning-custom .banner img{ width:100%;}
+.learning-custom article{font-family: 'Zona Prolight';}
+.learning-custom .searchcoutry-about-count {padding-top: 30px;}
+.learning-custom .desktop-start-journeybanner h2 { padding-top: 0!important; color:#ffffff;font-family: 'Zona Proextrabold';}
+.event-content .label-view p {display: block!important;min-height: 40px;margin-bottom: 20px!important;}
+.events-page-detail p {top: 0!important;}
+
+#accordionExample .card-body p.faq-child-heading{margin: 0;padding: 0;top: 40px;font-family: 'Zona Pro'!important; padding-bottom: 10px;}
+.card-body p {display: block!important;}
+.course-list .table td p{margin: 0!important;padding: 0!important;top:0!important;}
+.summary_history a, .course-list a,  .searchcoutry-outlook a, #accordionExample a {text-decoration: underline; font-family: 'Zona Pro';}
+.summary_history a:hover, .course-list a:hover ,  .searchcoutry-outlook a:hover , #accordionExample a:hover  {text-decoration: none;}
+.desktop-faq-verticaltab .accordion .card-body strong {    font-weight: normal!important; display: inline!important; font-family: 'Zona Proregular'!important;}
+.margintab{ margin:0!important;}
+h2.mt-3 a {text-decoration: none;}
+.summary_history strong {display: inline!important; font-family: 'Zona Proregular'!important;font-weight: normal!important;}
+ol.cust-ol { list-style: decimal;margin-bottom: 25px!important;}
+ol.cust-ol li {list-style: decimal;margin-bottom: 13px;line-height: 1.86;padding-left: 10px; margin-left: 20px; font-family: 'Zona Proregular';}
+.contentslider .formheading a {text-decoration: none;}
+.partner-form-fields p {padding: 10px 0 5px;}
+.desktop-faq-verticaltab .accordion .card-body {padding-top: 20px!important;}
+.custom-tab-vr td{   border: solid 1px #e6e5e5; padding: 0!important;}
+.custom-tab-vr td p{display: block!important; text-align: center;padding: 20px!important; line-height: 17px;}
+.custom-tab-vr th { border: solid 1px #e6e6e6;background: #f3f3f3;}
+.custom-tab-vr td strong{display:block; clear:both;text-align: center;margin-bottom: -15px;}
+.insights-details-page .wpb_row .wpb_wrapper table.custom-tab-vr p {margin: 20px 5px!important;}
+.insights-details-page .event-left-banner img{ width:100%!important;}
+.faq-li-ul{margin: 0px!important;}
+.faq-li-ul li{  list-style: none!important;}
+ul.faq-li-ul.lst-bull {padding-top: 20px;}
+ul.faq-li-ul.lst-bull li {
+    list-style: disc!important;
+    margin-left: 10px;
+}

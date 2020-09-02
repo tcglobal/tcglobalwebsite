@@ -1,0 +1,466 @@
+/*----------------------------Login Page Start ---------------------------*/
+.login_left{
+  background: #f8f8f8;
+  display: block;
+}
+.color_theme{
+  color: #d91f3d;
+}
+.z-Problack{
+  font-family: 'Zona Problack';
+}
+.z-regular{
+  font-family: 'Zona Proregular';
+}
+.z-pro{
+  font-family: 'Zona Pro';
+}
+
+.fs-10{
+  font-size: 10px;
+}
+.fs-12{
+  font-size: 12px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.pt_5{
+  padding-top: 5em;
+}
+.pl_1{
+  padding-left: 1em;
+}
+.pb_5{
+  padding-bottom: 5em;
+}
+.mt_1{
+  margin-top: 1em !important;
+}
+.mt_5{
+  margin-top: 5em !important;
+}
+.mt_2{
+  margin-top: 2em !important;
+}
+.mt_4{
+  margin-top: 4em !important;
+}
+.mb_1{
+  margin-top: 1em !important;
+}
+.pb_2{
+  padding-bottom: 2em !important;
+}
+.bg-themegray {
+  background: #f8f8f8 !important;
+}
+.height-300{
+  height: 20rem;
+}
+.login-left-inner{
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  font-family: 'Zona Proextrabold';
+  position: relative;
+  padding-bottom: 20px;
+}
+
+h1::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 40px;
+  height: 6px;
+  background: #d91f3d;
+}
+
+.login-left-inner ul{
+  display: table;
+  margin: 0;
+  padding: 0;
+}
+
+.login-left-inner ul li{
+  display: flex;
+
+}
+
+.login-left-inner ul li a{
+  display: block;
+  font-family: 'Zona Pro';
+  padding-top: 13px;
+  padding-bottom: 13px;
+  min-width: 220px;
+}
+.login-left-inner ul li a:hover{
+  cursor: pointer;
+  padding: 13px 0px 13px 13px;
+  box-shadow: 0px 0px 13px #e8e8e8;
+  color: #d91f3d !important;
+  background: url(images/down_2.png) no-repeat 13px 18px #ffffff;
+  width: auto;
+}
+
+.login-left-inner ul li a:hover span {
+  /* padding-left: 35px;
+  padding-right: 20px; */
+}
+
+.login-left-inner .current:hover{
+  background: #ffffff;
+}
+.login-left-inner .current span{
+  padding-left: 20px !important;
+}
+
+.login-left-inner .current{
+  background: #fff;
+  box-shadow: 0 10px 95px 0 rgba(44, 9, 12, 0.15);
+  padding-left: 13px;
+}
+.login-left-inner .current span{
+  color: #d91f3d;
+}
+
+.login_right{
+  width: 380px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.log-form input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid #d7d7d7;
+  border-radius: 0px;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  color: #000 !important;
+}
+
+.btn-red{
+  font-family: 'Zona Proregular';
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #d91f3d;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  display: inline-block;
+  border-radius: 0;
+  padding: 18px 0;
+  text-transform: uppercase;
+}
+
+a:hover{
+  color: #d91f3d;
+  text-decoration: none;
+}
+.line{
+  position: relative;
+}
+.line::before{
+  content: "";
+  border-top: 1px solid #efefef;
+  position: absolute;
+  top: 13px;
+  width: 100%;
+}
+
+.line span{
+  background-color: #fff;
+  font-family: 'Zona Proregular';
+  color: #747272;
+  display: block;
+  font-size: 14px;
+}
+
+.s-icon{
+  border: 1px solid #eaeaea;
+  font-family: 'Zona Pro';
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #222222;
+  text-align: center;
+  letter-spacing: .2px;
+}
+
+.bottom-logo{
+  border-bottom: 1px solid #f1f1f3;
+}
+.login-footer {
+  overflow: hidden;
+  padding: 40px 0;
+}
+.login-footer p{
+  font-family: 'Zona Proregular';
+  font-size: 10px;
+  margin-bottom: 0;
+}
+.login-footer li{
+  display: inline-block;
+
+
+}
+
+.login-footer li a{
+  font-size: 10px;
+  padding-left: 50px;
+  font-family: 'Zona Proregular';
+}
+.register .error {
+  position: relative !important;
+  top: 0 !important;
+  font-family: 'Zona Proregular' !important;
+  color: #d91f3d !important;
+  margin-bottom: 0;
+  font-size: 11px !important;
+  left: 0 !important;
+  width: 100%;
+}
+.register .error:before {
+  content: none;
+}
+.register .iti__flag-container {
+  border-bottom: 2px solid #dfdfdf !important;
+  height: 50px !important;
+}
+.register .iti input {
+  height: 50px !important;
+}
+.register .group input.error {
+  font-size: 14px !important;
+  color: #2c090c !important;
+  font-family: 'Zona Pro' !important;
+}
+.register .group .iti input.error {
+  width: 62% !important;
+}
+.register .group input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(0,0,0,.3);
+}
+.register .group input::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(0,0,0,.3);
+}
+.social-btn{
+  border: 1px solid #eaeaea;
+  padding: 13px 30px 13px 20px;
+  box-shadow: 0px 0px 15px #f9f9f9;
+  font-family: 'Zona Pro';
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #222222;
+  text-align: center;
+}
+.social-btn img{
+  margin-right: 20px;
+}
+
+/*----checkbox css ---- */
+/*--------------Alert--Message----------------*/
+.register #loginerror .alert-danger,
+.register #forgoterror .alert-danger,
+.register #forgotsuccess .alert-success,
+.register #errorres .alert-danger {
+  border-color: #f8d7da;
+  border-radius: 0;
+  font-family: 'Zona Proregular';
+  font-size: 11px;
+  padding: 9px 25px 9px 13px;
+  width: 100%;
+  margin: 15px 0 0;
+}
+.register #loginerror .alert-danger .close,
+.register #forgoterror .alert-danger .close,
+.register #forgotsuccess .alert-success .close,
+.register #successres .alert-success .close,
+.register #errorres .alert-danger .close {
+  opacity: 1;
+  padding: 0;
+  line-height: 0;
+  margin-right: 8px;
+}
+.register #loginerror .alert-danger .close:hover,
+.register #forgoterror .alert-danger .close:hover,
+.register #forgotsuccess .alert-success .close:hover,
+.register #successres .alert-success .close:hover,
+.register #errorres .alert-danger .close:hover {
+  background: none;
+}
+.register #loginerror .alert-danger .close span,
+.register #forgoterror .alert-danger .close span,
+.register #forgotsuccess .alert-success .close span,
+.register #successres .alert-success .close span,
+.register #errorres .alert-danger .close span {
+  padding: 0;
+  opacity: 1;
+  color: #f8d7da;
+  font-size: 12px;
+  background: #723036;
+  font-weight: normal;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  line-height: 13px;
+  display: inline-block;
+}
+.register #forgotsuccess .alert-success,
+.register #successres .alert-success {
+  background: #eaf7f1 !important;
+  border-color: #eaf7f1 !important;
+}
+.register #forgotsuccess .alert-success .close span,
+.register #successres .alert-success .close span {
+  background: #b7e1cb !important;
+  color: #2f935e !important;
+}
+.register #forgotsuccess .alert-success {
+  top: 10px !important;
+}
+.register #forgotsuccess .alert-success p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.register #successres .alert-success {
+  max-width: 630px;
+  font-family: 'Zona Proregular';
+  font-size: 12px;
+  border-radius: 0;
+  margin: auto;
+}
+.register #successres .alert-success .alert-heading {
+  display: block;
+}
+.register #successres .alert-success p {
+  margin-bottom: 0;
+  font-size: 12px;
+  display: inline-block;
+  margin-right: 5px;
+}
+/*--------------Alert--Message----------------*/
+/* Hide the checkbox/radio. We will simulate it later using label */
+.check_value input[type=checkbox], .check_value input[type=radio] {
+  opacity: 0;
+  position: absolute;
+}
+
+/* Some basic styling for alignment and more */
+.check_value input[type=checkbox], .check_value input[type=checkbox] + label, .check_value input[type=radio], .check_value input[type=radio] + label {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  font-family: 'Zona Proregular';
+  font-size: 12px;
+}
+
+/* CSS Pseudo class "before" to show checkbox/radio box. Will be attached to every label adjacent to input checkbox.*/
+.check_value input[type=checkbox] + label:before, .check_value input[type=radio] + label:before {
+  font-family: 'FontAwesome';
+  background: #d91f3d;
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 9px;
+  padding: 0px 0;
+  color: #ffffff;
+  transition: color .4s;
+  border: 1px solid #d91f3d;
+}
+
+/* Tick inside checkbox. I am using Font-awesome's tick, but you can use plain unicode tick */
+/* or any other symbol you want. */
+.check_value input[type=checkbox] + label:before {
+  content: '\f00c';
+  border-radius: 2px;
+}
+
+/* Circle inside radio circle. Border-radius to make it a circle. */
+.check_value input[type=radio] + label:before {
+  content: '\f111';
+  border-radius: 50%;
+}
+
+/* Styles when checkbox/radio is checked */
+.check_value input:checked + label:before {
+  background: #d91f3d;
+  color: #FFF;
+}
+
+/* Styles when checkbox/radio is disabled  */
+.check_value input[type=checkbox][disabled] + label:before, .check_value input[type=radio][disabled] + label:before {
+  color: #d0d0d0;
+  background: #bfbfbf;
+  border: 1px solid #656b64;
+}
+/*----checkbox css ---- */
+/* active state */
+input:focus, textarea:focus, select:focus{
+  outline: none !important;
+}
+
+.form-control:focus{
+  color: transparent;
+  background-color: #fff;
+  border-color: transparent;
+  outline: 0px;
+  box-shadow: none;
+}
+
+
+/* BOTTOM BARS ================================= */
+.bar  { position:relative; display:block;}
+.bar:before, .bar:after   {
+  content:'';
+  height:2px;
+  width:0;
+  bottom:1px;
+  position:absolute;
+  background:#d91f3d;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%;
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from { background:#d91f3d; }
+  to  { width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background:#d91f3d; }
+  to  { width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+  from { background:#d91f3d; }
+  to  { width:0; background:transparent; }
+}
+
+
+/*----------------------------Login Page End ---------------------------*/
